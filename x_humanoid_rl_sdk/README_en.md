@@ -1,4 +1,4 @@
-# Tienkung Humanoid Robot Reinforcement Learning Control SDK
+# Walker Tienkung Humanoid Robot Reinforcement Learning Control SDK
 
 This is a C++ SDK for humanoid robot reinforcement learning control, including finite state machine implementation, robot interface, and control algorithms.
 
