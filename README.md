@@ -1,53 +1,68 @@
-# 天工人形机器人强化学习控制项目集
+# Walker Tienkung Humanoid Robot Reinforcement Learning Control Project Collection
 
-这个仓库包含了天工系列人形机器人强化学习控制系统的主要组件。
+This repository contains the main components of the Walker Tienkung series humanoid robot reinforcement learning control system.
 
-## 项目结构
+**[简体中文](./README_zh.md)｜English**
+
+## Project Structure
 
 ```
 Deploy_Tienkung/
-├── rl_control_new/         # 强化学习控制主库
-└── x_humanoid_rl_sdk/      # 机器人控制SDK
+├── rl_control_new/         # Reinforcement learning control library
+└── x_humanoid_rl_sdk/      # Robot control SDK
 ```
 
-## 组件介绍
+## Component Introduction
 
-### [rl_control_new]
+### rl_control_new
 
-基于ROS2的人形机器人强化学习控制库，用于控制天工系列人形机器人。该库使用强化学习算法实现机器人运动控制，支持仿真和真实机器人环境。
+A ROS2-based reinforcement learning control library for Walker Tienkung series humanoid robots. This library uses reinforcement learning algorithms to achieve robot motion control, supporting both simulation and real robot environments.
 
-主要特性：
-- 基于强化学习的机器人控制策略
-- 支持仿真和实机部署
-- ROS2集成，便于系统扩展
-- 插件化架构设计
+Key Features:
 
-### [x_humanoid_rl_sdk]
+- Robot control strategy based on reinforcement learning
+- Support for simulation and real robot deployment
+- ROS2 integration for easy system expansion
+- Plugin-based architecture design
 
-天工人形机器人强化学习控制SDK，包含状态机实现、机器人接口和控制算法。
+### x_humanoid_rl_sdk
 
-主要特性：
-- 有限状态机实现
-- 标准化机器人接口定义
-- 控制算法封装
-- 易于集成的C++库
+Walker Tienkung humanoid robot reinforcement learning control SDK, including finite state machine implementation, robot interface, and control algorithms.
 
-## 使用说明
+Key Features:
 
-请参考各子项目的README文档获取详细的安装和使用说明：
+- Finite state machine implementation
+- Standardized robot interface definition
+- Control algorithm encapsulation
+- Easy-to-integrate C++ library
 
-- [rl_control_new README](./rl_control_new/README.md)
-- [x_humanoid_rl_sdk README](./x_humanoid_rl_sdk/README.md)
+## Usage Instructions
 
-## 系统要求
+Please refer to the README documents of each sub-project for detailed installation and usage instructions:
+
+- [rl_control_new README](./rl_control_new/README_en.md)
+- [x_humanoid_rl_sdk README](./x_humanoid_rl_sdk/README_en.md)
+
+## System Requirements
 
 - Ubuntu 22.04 LTS
 - ROS2 Humble
-- C++17 编译器
+- C++17 compiler
 - CMake 3.8+
 - Eigen3
-- 其他依赖详见各子项目文档
+- Other dependencies as detailed in each sub-project documentation
 
-## 联系方式
+## Acknowledgements
 
-如有问题，请联系项目维护团队。
+Special thanks to **Beijing Humanoid Robot Innovation Center** for their invaluable support and guidance.
+
+## Contact
+
+If you have any questions, please contact the project maintenance team.
+
+## Acknowledgement
+
+**Special thanks to the Beijing Humanoid Robot Innovation Center for their invaluable support and guidance.**
+
+**Project Link:** [Deploy_Tienkung](https://github.com/Open-X-Humanoid/Deploy_Tienkung)
+
